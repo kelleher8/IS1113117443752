@@ -1,0 +1,51 @@
+#section1{
+  background-image: url("https://s-media-cache-ak0.pinimg.com/originals/1a/b1/51/1ab151dbbdbf2744df583c20b0f9a464.jpg");
+   background-size:100% 100%;
+   background-repeat:no-repeat;
+   font-family: cursive
+    
+  }
+
+#section2{ background-image: url("https://i.ytimg.com/vi/VpSWLzVZeDE/maxresdefault.jpg");
+   background-size:100% 100%;
+   background-repeat:no-repeat;
+}
+   
+
+#section3{
+    background-image: url("http://thewallpaper.co/wp-content/uploads/2016/03/savanna-to-ayers-rock-in-australia-red-sky-ultra-hd-wallpaper-windows-wallpaper-hd-free-images-wallpapers-for-large-screens-1920x1080.jpg");
+   background-size:100% 100%;
+   background-repeat:no-repeat;
+}
+
+.section{
+        text-align: center;
+        color: white;
+    }
+    
+#soccer{
+  background-image: url("https://wallpapercave.com/wp/wp2064503.jpg");
+   background-size:100% 100%;
+   background-repeat:no-repeat;
+   font-family: cursive
+  
+  }
+
+#other
+{ background-image: url("http://cdn.extra.ie/wp-content/uploads/2016/10/03152456/1224323-1017x1024.jpg");
+   background-size:100% 100%;
+   background-repeat:no-repeat;
+}
+   
+
+#training
+{
+    background-image: url("https://ak0.picdn.net/shutterstock/videos/13443080/thumb/4.jpg?i10c=img.resize(height:160)");
+   background-size:100% 100%;
+   background-repeat:no-repeat;
+}
+
+.mainheading
+{background-color: blue
+}
+
