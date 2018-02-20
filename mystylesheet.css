@@ -9,13 +9,22 @@
   text-decoration: none; 
 }
 
-body{
+#home{
    background-image: url("https://s-media-cache-ak0.pinimg.com/originals/fb/28/4a/fb284aab9655cf39935b8e7989c55d53.jpg");
    background-size: cover;
    background-repeat:no-repeat;
+}
+
+#Personal{
+     background-image: url("https://ak8.picdn.net/shutterstock/videos/18592928/thumb/1.jpg");
+   background-size: cover;
+   background-repeat:no-repeat;
+ 
+    
+}
   
     
-} 
+
 
 /* Dropdown Button */
 .dropbtn {

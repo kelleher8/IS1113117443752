@@ -6,6 +6,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/query/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="cost_calc.js"></script>
     
+  
+    
     
     </head>
     
@@ -32,6 +34,20 @@
             
             
             <br/>
+            
+            <label for="cloud9">
+                <input type="radio" id="cloud9" name="product"onClick="disablebtnProceed()"/>
+                Cloud 9 @ $200
+            </label>
+            
+            <br/>
+            
+            <label for="gmail">
+                <input type="radio" id="gmail" name="product"onClick="disablebtnProceed()"/>
+                Gmail @ $400
+            </label>
+            
+            <br/>
             <br/>
             
             <label for="subtotal">
@@ -48,7 +64,7 @@
             
             <br/>
             
-            <button type="submit" id="ntnProceed" disabled>Add to Shopping Cart</button>
+            <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
             
             </form>
             
