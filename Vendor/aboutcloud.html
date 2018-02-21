@@ -1,8 +1,40 @@
-<!-- Container Research section--> <div id="cloud" class="container-fluid text-center bg-grey">
+
 <head>
+  
   <Title>>Research</Title>
+  
+  <link rel="stylesheet" href="vendor.css" type="text/css" />
+  
   <style>
   
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
 .button {
     background-color: 	#00FFFF;
     border: none;
@@ -18,9 +50,22 @@
 </style>
 </head>
 
+<body>
+  <ul>
+  <li><a href="Cloudservicess.html">Mainpage</a></li>
+  <li><a href="aboutus.html">About Us</a></li>
+  <li><a href="aboutcloud.html">About cloud</a></li>
+  <li><a href="products.html">Products</a></li>
+  <li style="float:right"><a class="active" href="../Homepage.html">Homepage</a></li>
+</ul>
+
+<div id=first>
+  
 <h1>Our Research</h1>
-<ul>
-<li><h2><a href="https://www.salesforce.com/saas/">Software as a Service (SaaS) - Salesforce</a></h2></li>
+
+<h2><a href="https://www.salesforce.com/saas/">Software as a Service (SaaS) - Salesforce</a></h2> <img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/83/Salesforce_logo.svg/1200px-Salesforce_logo.svg.png"
+height = 100px
+alt= "salesforce logo">
 
 <h3>What is it?</h3>
 <p>Software as a service is a way of delivering centrally hosted applications over the Internet as a service.
@@ -43,13 +88,21 @@ SaaS business applications are usually accessed by users using a thin client via
 A bank’s customers all use the same financial systems and technology without worrying about anyone accessing their personal information without authorization.
 A “bank” meets the key characteristics of the SaaS model:</p>
 
+
 <h3>Learn More</h3>
 <p><a href="https://www.salesforce.com/saas/">https://www.salesforce.com/saas/</a></p>
 
+
 <hr>
+</div>
 
 
-<li><h2><a href="http://searchcloudcomputing.techtarget.com/definition/Platform-as-a-Service-PaaS">Platform as a Service (PaaS) - Cloud 9</a></h2></li>
+<div id="cloud9">
+<h2><a href="http://searchcloudcomputing.techtarget.com/definition/Platform-as-a-Service-PaaS">Platform as a Service (PaaS) - Cloud 9</a></h2>
+<img src ="https://static.c9.io/nc-3.1.4109-2ffb85e2-wf/static/plugins/c9.profile/static/images/cloud9-logo.svg"
+height = "100px"
+alt="cloud 9 logo">
+
 <h3>What is it?</h3>
 <p>Platform as a service (PaaS) is a cloud computing model in which a third-party provider delivers hardware and software tools
 usually those needed for application development -- to users over the internet. A PaaS provider hosts the hardware and software on its own infrastructure. 
@@ -66,8 +119,14 @@ As a result, PaaS frees users from having to install in-house hardware and softw
   <p><a href="http://searchcloudcomputing.techtarget.com/definition/Platform-as-a-Service-PaaS"http://searchcloudcomputing.techtarget.com/definition/Platform-as-a-Service-PaaS</a></p>
   
   <hr>
-  
-  <li><h2><a href="https://aws.amazon.com/types-of-cloud-computing/">Infrastructure as a Service (IaaS) - Amazon</a></h2></li>
+  </div>
+
+  <div id= amazon>
+ <h2><a href="https://aws.amazon.com/types-of-cloud-computing/">Infrastructure as a Service (IaaS) - Amazon</a></h2>
+ <img src="http://codigodelsur.com/wp-content/uploads/2016/02/AmazonWebservices_Logo.svg_.png"
+ height="100px"
+ alt="amazon logo">
+ 
   <h3>What is it?</h3>
   <p>Infrastructure as a Service, sometimes abbreviated as IaaS, contains the basic building blocks for cloud IT and typically provide access to networking features,
   computers (virtual or on dedicated hardware), and data storage space. Infrastructure as a Service provides you with the highest level of flexibility
@@ -83,7 +142,14 @@ As a result, PaaS frees users from having to install in-house hardware and softw
   <h3>Learn more</h3>
   <p><a href="https://aws.amazon.com/types-of-cloud-computing/">https://aws.amazon.com/types-of-cloud-computing/</a></p>
 
+<hr>
+</div>
+
+<div id=gmail>
 <h2><a href="http://whatis.techtarget.com/definition/Communications-as-a-Service-CaaS">Communication as a Service (CaaS) - Gmail</a></h2>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/New_Logo_Gmail.svg/1280px-New_Logo_Gmail.svg.png"
+height="100px"
+alt="gmail logo">
 
 <h3>What is it?</h3>
 <p>ommunications as a Service (CaaS) is an outsourced enterprise communications solution that can be leased from a single vendor. 
@@ -104,3 +170,6 @@ collaboration and videoconference applications using fixed and mobile devices. C
 <br/>
 <h3> Interested in these products?</h3>
 <a href="products.html" class="button">Buy a product</a>
+</div>
+</body>
+</html>

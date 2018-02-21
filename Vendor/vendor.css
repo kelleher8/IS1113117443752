@@ -1,5 +1,29 @@
-#buy{
-   background:url("http://blog.unibulmerchantservices.com/wp-content/uploads/2011/03/What-Every-Merchant-Needs-to-Know-About-Splitting-Credit-Card-Transactions.jpg");
-   background-size:cover;
-   background-repeat:no-repeat;
+
+
+#first{
+    background-color:#b3c6ff;
 }
+
+#cloud9{
+    background-color: #ccffff;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+#amazon{
+    background-color: #ff9900;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+#gmail{
+    background-color: 	#c71610
+}
+
+#aboutus{
+    background-image: url("https://wallpaperscraft.com/image/question_marks_background_signs_bright_95003_1920x1080.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+}
+
