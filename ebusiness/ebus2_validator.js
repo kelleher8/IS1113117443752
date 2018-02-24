@@ -17,6 +17,8 @@ function validateDetails(){
         enablebtnPurchase();
     }
     
+    
+    
 }
 
 function enablebtnPurchase(){

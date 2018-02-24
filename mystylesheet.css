@@ -15,7 +15,11 @@
    background-repeat:no-repeat;
 }
 
-
+#cv1{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKOA_j3wVAXR88MBXWCiVK-WZ9cw97wNQ5CWPjKcLsH-zoox3WEQ");
+    background-size:cover;
+    background-repeat: no-repeat
+}
   
     
 
