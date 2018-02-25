@@ -18,11 +18,44 @@
 #cv1{
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKOA_j3wVAXR88MBXWCiVK-WZ9cw97wNQ5CWPjKcLsH-zoox3WEQ");
     background-size:cover;
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
 }
   
-    
+#edu{
+    background-image: url("https://ak4.picdn.net/shutterstock/videos/4635014/thumb/1.jpg");
+     background-size:cover;
+    background-repeat: no-repeat;
+}
 
+#work{
+    background-image: url("http://freedesignfile.com/upload/2017/01/Constraction-worker-HD-picture-01.jpg");
+     background-size:cover;
+    background-repeat: no-repeat;
+    
+}
+
+
+table {
+    width:100%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+   background-color:#fff;
+}
+table#t01 th {
+    background-color: black;
+    color: white;
+}
 
 
 

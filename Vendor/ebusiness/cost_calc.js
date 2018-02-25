@@ -4,7 +4,7 @@ function calcSub(){
     
     var argSubTotal; 
     
-    // If statments to calculate subtotal based on which radio button is chcecked.
+  
     
     if(document.getElementById('salesforce').checked){
     argSubTotal=100;
@@ -21,14 +21,28 @@ else if(document.getElementById('aws').checked){
         argSubTotal=400;
     }
     
-    display(argSubTotal);
-    }
+     calcDisVatTotal(argSubTotal);
+}
+    
+    function calcDisVatTotal(parmSubTotal){
+    var SubTotal = parmSubTotal;
+    var vatAmt;
+    var discountAmt;
+    var TotalPrice;
    
+   discountAmt = (parmSubTotal * .05);
+   vatAmt = (parmSubTotal - discountAmt) * (.1);
+   TotalPrice = (parmSubTotal + vatAmt - discountAmt);
+   
+   display(SubTotal , vatAmt, discountAmt, TotalPrice);
+    }
 
-function display(parm1){
+function display(parm1 , parm2 , parm3 , parm4){
   
   document.getElementById("subtotal").value = parm1;
-  document.getElementById("total").value = parm1;
+  document.getElementById("vat").value = parm2;
+  document.getElementById("discount").value = parm3;
+  document.getElementById("total").value = parm4;
         
   enablebtnProceed();
 }

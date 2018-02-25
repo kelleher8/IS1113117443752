@@ -66,6 +66,7 @@
             </label>
             
             <br/>
+            <br/>
             
             
             
@@ -75,12 +76,14 @@
             </label>
             
             <br/>
+            <br/>
             
              <label for="vat">
                 vat @ 10%: 
                 <input type="text" id="vat" value="0.00" readonly/>
             </label>
             
+            <br/>
             <br/>
             
             <label for="total">
@@ -95,7 +98,8 @@
             </form>
             
             <br/>
-           <button onClick="calcSub()">Calculate Cost</button>
+            <button onClick="calcSub()">Calculate Cost</button>
+            
             <a role="button" href="Ebus1.php">Clear Choice</a>
             
             </div>
