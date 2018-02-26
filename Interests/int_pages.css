@@ -45,7 +45,24 @@
    background-repeat:no-repeat;
 }
 
+#summary
+{
+    background-image: url("http://ak7.picdn.net/shutterstock/videos/10323107/thumb/12.jpg");
+   background-size:100% 100%;
+   background-repeat:no-repeat;
+}
+
+#advantages
+{
+    background-image: url("https://s-media-cache-ak0.pinimg.com/originals/19/57/a4/1957a42f33fa8b5c543527213f580c3c.jpg");
+   background-size:100% 100%;
+   background-repeat:no-repeat;
+}
+
+
+
 .mainheading
 {background-color: blue
 }
+
 
