@@ -113,6 +113,8 @@ span.price {
 </style>
     </head>
     <body>
+       <form method="POST" action="Ebus3.php" name="Details">
+
       
       <ul>
   <li><a href="../cv_page1.html">Curriculum Vitae</a></li>
@@ -132,17 +134,11 @@ span.price {
         <div class="row">
           <div class="col-50">
             <h3>Billing Address</h3>
-            <label for="fname"><i class="fa fa-user"></i> Full Name</label>
-            <input type="text" id="fullname" name="fullname" placeholder="John M. Doe">
+            <label for="full_name"><i class="fa fa-user"></i> Full Name</label>
+            <input type="text" id="full_name" name="full_name" placeholder="John M. Doe">
             
-            <label for="email"><i class="fa fa-envelope"></i> Email</label>
-            <input type="text" id="email" name="email" placeholder="john@example.com">
-            
-            <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
-            <input type="text" id="adr" name="address" placeholder="Washington Street">
-            
-            <label for="city"><i class="fa fa-institution"></i> City</label>
-            <input type="text" id="city" name="city" placeholder="Cork">
+            <label for="user_email"><i class="fa fa-envelope"></i> Email</label>
+            <input type="text" id="user_email" name="user_email" placeholder="john@example.com">
 
            
           </div>
@@ -157,14 +153,15 @@ span.price {
               <i class="fa fa-cc-discover" style="color:orange;"></i>
             </div>
             
-            <label for="cname">Name on Card</label>
-            <input type="text" id="cname" name="cardname" placeholder="John More Doe">
             
-            <label for="ccnum">Credit card number</label>
-            <input type="text" id="ccnum" name="cardnumber" placeholder="1111222233334444" maxlength="16">
             
-            <label for="expmonth">Exp Month</label>
-            <input type="text" id="expmonth" name="expmonth" placeholder="September" >
+            <label for="card_name">Name on Card:</label>
+            <input type="text" id="card_name" name="card_name" placeholder="John More Doe">
+            
+            <label for="card_number">Credit card number</label>
+            <input type="text" id="card_number" name="card_number" placeholder="1111222233334444" maxlength="16">
+            
+            
             
             <div class="row">
               <div class="col-50">
@@ -186,8 +183,6 @@ span.price {
 </div>
            
 
--            <form method = "POST" action = "Ebus3.php" >
-    
                 <button type="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
               
             </form>
@@ -200,9 +195,11 @@ span.price {
         <script type="text/javascript" src="ebus2_validator.js"></script>
         
        <?php
-            // Set session variables
-            $_SESSION["total"] = $_POST["total"];
-            ?>
-        
+        $_SESSION["full_name"] = $_POST["full_name"];
+        $_SESSION["user_email"] = $_POST["user_email"];
+        $_SESSION["total"] = $_POST["total"];
+      
+        ?>
+
         
     </body>
