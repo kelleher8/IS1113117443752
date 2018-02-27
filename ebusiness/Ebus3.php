@@ -43,7 +43,8 @@ th {
 }
 </style>
     </head>
-    <body>
+    
+    <body >
         
          
         <h4>RECEIPT</h4>

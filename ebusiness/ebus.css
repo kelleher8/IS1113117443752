@@ -34,3 +34,11 @@ li a:hover:not(.active) {
 .active {
     background-color: #4CAF50;
 }
+
+#reciept{
+    background-image: url("http://ak5.picdn.net/shutterstock/videos/6315365/thumb/4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+   
+}
