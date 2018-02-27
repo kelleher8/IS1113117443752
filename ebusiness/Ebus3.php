@@ -5,6 +5,8 @@ session_start();
 
 <html>
     <head>
+        
+        <!--Title-->
         <title>RECEIPT</title>
         
         <!--code aqquired from https://www.w3schools.com/css/tryit.asp?filename=trycss_table_fancy-->
@@ -45,6 +47,13 @@ th {
     </head>
     
     <body >
+        
+        <!--Links for navbar-->
+        <ul>
+         <li><a href="Cloudservices.html">Mainpage</a></li>
+  <li><a href="products.html">Products</a></li>
+  <li style="float:right"><a class="active" href="../Homepage.html">Homepage</a></li>
+        </ul>
         
          
         <h4>RECEIPT</h4>

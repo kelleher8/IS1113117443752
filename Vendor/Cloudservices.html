@@ -3,8 +3,10 @@
 <head>
 <title>Cloud Essentials</title>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+
+ <!-- Navbar code aqquired from https://www.w3schools.com/css/css_navbar.asp-->   
 <style>
+
 * {
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
@@ -15,41 +17,24 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Style the top navigation bar */
-.topnav {
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     overflow: hidden;
     background-color: #333;
 }
 
-/* Style the topnav links */
-.topnav a {
+li {
     float: left;
+}
+
+li a {
     display: block;
-    color: #f2f2f2;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-}
-
-/* Change color on hover */
-.topnav a:hover {
-    background-color: #ddd;
-    color: black;
-}
-
-/* Style the content */
-.content {
-    background-image: url("https://ak6.picdn.net/shutterstock/videos/5443466/thumb/11.jpg");
-     background-size: cover;
-   background-repeat:no-repeat;
-    padding: 10px;
-    height: 680px; /* Should be removed. Only for demonstration */
-}
-
-/* Style the footer */
-.footer {
-    background-color: #f1f1f1;
-    padding: 10px;
 }
 
 li a:hover:not(.active) {
@@ -60,27 +45,38 @@ li a:hover:not(.active) {
     background-color: #4CAF50;
 }
 
+
+.content {
+    background-image: url("https://ak6.picdn.net/shutterstock/videos/5443466/thumb/11.jpg");
+     background-size: cover;
+   background-repeat:no-repeat;
+    padding: 10px;
+    height: 680px; /* Should be removed. Only for demonstration */
+}
+
 </style>
+
 </head>
+
 <body>
 
-<div class="topnav">
-   
-     <a href="Cloudservices.html">Mainpage</a>
-  <a href="aboutus.html">About us</a>
-    <a href="aboutcloud.html">About Cloud</a>
-  <a href="products.html">Products</a>
-   <li style="float:right"><a class="active" href="../Homepage.html">Homepage</a></li>
-</div>
+ <!---Adding links to the nav bar-->
+ <ul>
+  <li><a href="Cloudservices.html">Mainpage</a></li>
+  <li><a href="aboutus.html">About us</a></li>
+  <li><a href="aboutcloud.html">About Cloud</a></li>
+  <li><a href="products.html">Products</a></li>
+  <li style="float:right"><a class="active" href="../homepage.html">Homepage</a></li>
+</ul>
 
 <div class="content">
+    
+    <!--Heading-->
   <h1>Cloud Essentials</h1>
 <h3>Exploring the cloud can be confusing , let us help you on your journey</h3>
 </div>
 
-<div class="footer">
-  <a href="../homepagehtml" class="btn btn-dark">Back to Homepage</a>
-</div>
+
 
 </body>
 </html>

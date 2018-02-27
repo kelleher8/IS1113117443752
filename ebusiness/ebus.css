@@ -35,10 +35,9 @@ li a:hover:not(.active) {
     background-color: #4CAF50;
 }
 
-#reciept{
+#details{
     background-image: url("http://ak5.picdn.net/shutterstock/videos/6315365/thumb/4.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    color: white;
    
 }
