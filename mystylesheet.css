@@ -2,6 +2,11 @@
     text-align: center;
     }
     
+    #project{
+    text-align: center;
+    font-size: 100px;
+    }
+    
 .btn {
   color: #fff;
   background: #000;

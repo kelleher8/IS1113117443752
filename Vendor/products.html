@@ -1,8 +1,9 @@
+<!DOCTYPE html>
+
 <html>
-
-
 <head>
 <title>Products</title>
+   <meta charset="utf-8"/>
 
 
    <!-- Navbar code aqquired from https://www.w3schools.com/css/css_navbar.asp-->   
@@ -48,12 +49,17 @@ li a:hover:not(.active) {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+    width:35.2%;
+margin-left: 30%;
+margin-right: 30%
 }
 
 
 
 table {
-    width:100%;
+    width: 40%;
+margin-left: 30%;
+margin-right: 30%
 }
 table, th, td {
     border: 1px solid black;
@@ -61,14 +67,45 @@ table, th, td {
 }
 th, td {
     padding: 5px;
-    text-align: left;
+    text-align: center;
 }
 table#t01 tr:nth-child(even) {
     background-color: #eee;
+    line-height:5;
+    
 }
 table#t01 tr:nth-child(odd) {
    background-color:#ff9900;
+   line-height:5;
 }
+
+table#t02 tr:nth-child(even) {
+    background-color: #eee;
+    line-height:5;
+}
+table#t02 tr:nth-child(odd) {
+   background-color:#ff9900;
+   line-height:5;
+}
+
+table#t03 tr:nth-child(even) {
+    background-color: #eee;
+    line-height:5;
+}
+table#t03 tr:nth-child(odd) {
+   background-color:#ff9900;
+   line-height:5;
+}
+
+table#t04 tr:nth-child(even) {
+    background-color: #eee;
+    line-height:5;
+}
+table#t04 tr:nth-child(odd) {
+   background-color:#ff9900;
+   line-height:5;
+}
+
 
 
 </style>
@@ -93,7 +130,7 @@ table#t01 tr:nth-child(odd) {
 <!--salesforce price-->
   <table id="t01">
              <tr>
-     <th height="100">Salesforce</th>
+     <th>Salesforce</th>
  </tr>
   <tr>
     <th>$100</th>
@@ -108,9 +145,9 @@ table#t01 tr:nth-child(odd) {
   <br/>
   
   <!--cloud 9 price-->
-  <table id="t01">
+  <table id="t02">
              <tr>
-     <th height="100">Cloud 9</th>
+     <th>Cloud 9</th>
  </tr>
   <tr>
     <th>$200</th>
@@ -126,9 +163,9 @@ table#t01 tr:nth-child(odd) {
   </br>
   
   <!--aws price-->
-  <table id="t01">
+  <table id="t03">
              <tr>
-     <th height="100">Amazon Web Service</th>
+     <th>Amazon Web Service</th>
  </tr>
   <tr>
     <th>300</th>
@@ -143,9 +180,9 @@ table#t01 tr:nth-child(odd) {
   <br/>
   
   <!--gmail price-->
-  <table id="t01">
+  <table id="t04">
              <tr>
-     <th height="100">Gmail</th>
+     <th>Gmail</th>
  </tr>
   <tr>
     <th>$400</th>
