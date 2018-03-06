@@ -140,7 +140,7 @@ span.price {
 <div class="row">
   <div class="col-75">
     <div class="container">
-      <form action="/action_page.php">
+
       
         <div class="row">
           <div class="col-50">
@@ -163,7 +163,7 @@ span.price {
             
             <!-- Payment-->
             <h3>Payment</h3>
-            <label for="fname">Accepted Cards</label>
+            <label for="cards">Accepted Cards</label>
             <div class="icon-container">
               <i class="fa fa-cc-visa" style="color:navy;"></i>
               <i class="fa fa-cc-amex" style="color:blue;"></i>
@@ -186,7 +186,7 @@ span.price {
               <div class="col-50">
                 
                 <!--pin number-->
-                <label for="PIN">PIN</label>
+                <label for="user_pin">PIN</label>
                 <input type="password" id="user_pin" name="user_pin" placeholder="Card PIN" maxlength="4" >
               </div>
             </div>
@@ -196,8 +196,7 @@ span.price {
      
       
       
-    </div>
-    </div>
+  
     </div>
   </div>
   
