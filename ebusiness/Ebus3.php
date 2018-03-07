@@ -20,11 +20,9 @@ session_start();
     overflow: hidden;
     background-color: #333;
 }
-
 li {
     float: left;
 }
-
 li a {
     display: block;
     color: white;
@@ -32,39 +30,30 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
 }
-
 li a:hover:not(.active) {
     background-color: #111;
 }
-
 .active {
     background-color: #4CAF50;
 }
-
         
         table {
     width: 100%;
 }
-
 th {
     height: 100px;
 }
-
 #customers {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     width: 100%;
 }
-
 #customers td, #customers th {
     border: 1px solid #ddd;
     padding: 8px;
 }
-
 #customers tr:nth-child(even){background-color: #f2f2f2;}
-
 #customers tr:hover {background-color: #ddd;}
-
 #customers th {
     padding-top: 12px;
     padding-bottom: 12px;
@@ -104,7 +93,7 @@ th {
  
  <!-- Thank you message-->
  
- <h2>Thank you for shopping with Cloud Essentials <?php echo $_POST["full_name"] . "<br/>";?> , your business is very much appreciated.<br/>
+ <h2>Thank you for shopping with Cloud Essentials <?php echo $_POST["full_name"] ;?> , your business is very much appreciated.
  Cloud is the future , and you are now part of this future.
  </h2>
 
