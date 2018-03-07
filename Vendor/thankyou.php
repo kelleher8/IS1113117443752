@@ -9,7 +9,7 @@
               <!--title-->
         <title>Thank You </title>
         
-        <!-- Navbar code aqquired from https://www.w3schools.com/css/css_navbar.asp-->   
+        <!-- Navbar code acquired from https://www.w3schools.com/css/css_navbar.asp-->   
 <style>
 
 
@@ -18,7 +18,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #FF5722;
 }
 
 li {
@@ -27,18 +27,18 @@ li {
 
 li a {
     display: block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 li a:hover:not(.active) {
-    background-color: #111;
+    background-color: #26B;
 }
 
 .active {
-    background-color: #4CAF50;
+    background-color: #26B;
 }
 </style>
          
