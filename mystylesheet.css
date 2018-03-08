@@ -27,13 +27,15 @@
     background-image: url("https://ak4.picdn.net/shutterstock/videos/4635014/thumb/1.jpg");
      background-size:cover;
     background-repeat: no-repeat;
+    text-align: center
 }
 
 #work{
     background-image: url("https://wallpapertag.com/wallpaper/full/b/9/0/121012-free-download-red-background-hd-1920x1080-for-iphone-5s.jpg");
      background-size:cover;
     background-repeat: no-repeat;
-    text-align: center
+    text-align: center;
+    color:black;
     
 }
 
@@ -66,7 +68,7 @@ table#t01 th {
 
 .btn{
     margin-left: 40%;
-margin-right: 30%;
+margin-right: 210%;
 width:20%;
 }
   

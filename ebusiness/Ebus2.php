@@ -127,8 +127,8 @@ span.price {
       
       <!--Navbar links-->
       <ul>
-   <li><a href="Cloudservices.html">Mainpage</a></li>
-  <li><a href="products.html">Products</a></li>
+    <li><a href="../Vendor/Cloudservices.html">Mainpage</a></li>
+  <li><a href="../Vendor/products.html">Products</a></li>
   <li style="float:right"><a class="active" href="../Homepage.html">Homepage</a></li>
 </ul>
 
