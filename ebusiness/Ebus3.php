@@ -61,10 +61,19 @@ th {
     background-color: #4CAF50;
     color: white;
 }
+
+#thanks{
+    background-image: url("https://wallpaperscraft.com/image/money_dollars_bills_background_surface_65906_3840x2160.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    text-align:center;
+    color:black;
+}
+
 </style>
     </head>
     
-    <body >
+    <body id="thanks">
         
         <!--Links for navbar-->
         <ul>
@@ -74,7 +83,7 @@ th {
         </ul>
         
          
-        <h4>RECEIPT</h4>
+        <h1>RECEIPT</h1>
         
         <!--reciept table that contains user information-->
         
@@ -97,8 +106,6 @@ th {
  Cloud is the future , and you are now part of this future.
  </h2>
 
-        
-        
-       
+    
     </body>
 </html>
